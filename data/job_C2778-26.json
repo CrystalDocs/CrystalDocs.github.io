@@ -1,0 +1,407 @@
+{
+"id": "C2778-26",
+"name": "C2778-26",
+"updated_at": "2026-10-12T18:56:33",
+"counts": {
+"Not Submitted": 12,
+"Submitted": 7,
+"Resubmitted": 0,
+"Commented": 0,
+"Rejected": 0,
+"Approved": 0
+},
+"total": 19,
+"attention": 3,
+"rows": [
+{
+"sr": 1,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A01-001",
+"title": "Vendor Drawings & Documentation Schedule",
+"status": "Submitted",
+"waiting": "Client",
+"days": 27,
+"due": 14,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "'N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A01-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "'N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A01-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 2,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A04-001",
+"title": "MONTHLY PROGRESS REPORT",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 3,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A05-001",
+"title": "INSPECTION AND TEST PLAN",
+"status": "Submitted",
+"waiting": "Client",
+"days": 27,
+"due": 14,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A05-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-A05-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 4,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-B02-001",
+"title": "GENERAL ARRANGEMENT DRAWINGS",
+"status": "Submitted",
+"waiting": "Client",
+"days": 27,
+"due": 14,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-B02-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-15",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-B02-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 5,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-J01-001",
+"title": "WELD PROCEDURE INCLUDING WPS & PQR",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 6,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00--B-021-J02-001",
+"title": "NDE PROCEDURES (INCLUDING LIQUID PENETRANT TEST REDIOGRAPHIC TEST PROCEDURE",
+"status": "Submitted",
+"waiting": "Client",
+"days": 6,
+"due": 14,
+"flag": false,
+"latest_rev": "01",
+"last_tn": "",
+"last_sub": {
+"date": "2026-10-06",
+"rev": "01",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00--B-021-J02-001-01.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00--B-021-J02-001-00.pdf",
+"tn": ""
+},
+{
+"date": "2026-10-06",
+"rev": "01",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00--B-021-J02-001-01.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 7,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00--B-021-J03-001",
+"title": "HEAT TREATMENT PROCEDURE",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 8,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-J04-001",
+"title": "SURFACE PREPRATION PAINTING AND COATING PROCEDURE",
+"status": "Submitted",
+"waiting": "Client",
+"days": 13,
+"due": 14,
+"flag": false,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-J04-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-J04-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 9,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-J04-002",
+"title": "PICKLING & PASSIVATION PROCEDURE",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 10,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-K07-001",
+"title": "POSITIVE MATERIAL IDENTIFICATION PROCEDURE",
+"status": "Submitted",
+"waiting": "Client",
+"days": 13,
+"due": 14,
+"flag": false,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-K07-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-K07-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 11,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L01-001",
+"title": "MANUFACTURING RECORD BOOK INDEX",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 12,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L02-001",
+"title": "MANUFACTURING RECORD BOOK",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 13,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L03-001",
+"title": "MATERIAL TEST CERTIFICATE",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 14,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L05-001",
+"title": "COMPLIANCE CERTIFICATES",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 15,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L06-001",
+"title": "TEST REPORT",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 16,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-L09-001",
+"title": "INSPECTION RELEASE NOTE",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 17,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-M02-001",
+"title": "Packing, Shipping, handling & Storage Procedure",
+"status": "Submitted",
+"waiting": "Client",
+"days": 13,
+"due": 14,
+"flag": false,
+"latest_rev": "00",
+"last_tn": "",
+"last_sub": {
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-M02-001-00.pdf",
+"tn": ""
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-29",
+"rev": "00",
+"status": "Submitted",
+"file": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-M02-001-00.pdf",
+"tn": ""
+}
+]
+},
+{
+"sr": 18,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-M03-001",
+"title": "PRECERVATION PROCEDURE",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 19,
+"doc_no": "N23P02-D11NPV-PZMM01-TIN-P-00-B-021-N01-001",
+"title": "SPARE LIST",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+}
+]
+}
