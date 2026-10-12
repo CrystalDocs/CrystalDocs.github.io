@@ -1,0 +1,1314 @@
+{
+"id": "C2756-26",
+"name": "C2756-26",
+"updated_at": "2026-10-12T18:56:31",
+"counts": {
+"Not Submitted": 13,
+"Submitted": 3,
+"Resubmitted": 1,
+"Commented": 23,
+"Rejected": 0,
+"Approved": 0
+},
+"total": 40,
+"attention": 24,
+"rows": [
+{
+"sr": 1,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A01-001",
+"title": "Vendor Drawings & Documentation Schedule",
+"status": "Submitted",
+"waiting": "Client",
+"days": 34,
+"due": 14,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "J24N08-12817-CIS-RIL-V-T-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+}
+]
+},
+{
+"sr": 2,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-001",
+"title": "Inspection and Test Plan",
+"status": "Submitted",
+"waiting": "Client",
+"days": 0,
+"due": 14,
+"flag": false,
+"latest_rev": "00",
+"last_tn": "J24N08-12817-CIS-RIL-V-T-00003",
+"last_sub": {
+"date": "2026-10-12",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-10-12",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+}
+]
+},
+{
+"sr": 3,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002",
+"title": "Inspection and Test Plan for Compressed Air Buffer Vessel",
+"status": "Resubmitted",
+"waiting": "Client",
+"days": 0,
+"due": 14,
+"flag": false,
+"latest_rev": "01",
+"last_tn": "J24N08-12817-CIS-RIL-V-T-00003",
+"last_sub": {
+"date": "2026-10-12",
+"rev": "01",
+"status": "Resubmitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002-01.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+{
+"date": "2026-10-12",
+"rev": "01",
+"status": "Resubmitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-002-01.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+}
+]
+},
+{
+"sr": 4,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-003",
+"title": "Inspection and Test Plan for Foundation template & Gauge Plate",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-003-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-003_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-003-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-003_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+}
+]
+},
+{
+"sr": 5,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-004",
+"title": "Inspection & Test Plan For Platform & Ladder",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 6,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-A05-005",
+"title": "Inspection & Test Plan For Chilled Water Expansion Vessel",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 7,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-001",
+"title": "GENERAL ARRANGEMENT DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-001_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-001_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+}
+]
+},
+{
+"sr": 8,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-002",
+"title": "GENERAL ARRANGEMENT DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-002_00_2.pdf",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B02-002_00_2.pdf",
+"tn": "241112817-OBTS-00002"
+}
+]
+},
+{
+"sr": 9,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-001",
+"title": "PLATFORM & LADDER GA FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-001_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-001_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+}
+]
+},
+{
+"sr": 10,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-002",
+"title": "PLATFORM & LADDER GA DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00002",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-002_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-B06-002_00_2.PDF",
+"tn": "241112817-OBTS-00002"
+}
+]
+},
+{
+"sr": 11,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-001",
+"title": "NOZZLE DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-001_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-001_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 12,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-002",
+"title": "MANWAY DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-002_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-002-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-002_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 13,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-003",
+"title": "SKIRT DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-003-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-003_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-003-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-003_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 14,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-004",
+"title": "DETAIL OF FOUNDATION TEMPLATE &GAUGE PLATE FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-004-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-004_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-004-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-004_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 15,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-005",
+"title": "NAME PLATE DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-005-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-005_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-005-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-005_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 16,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-006",
+"title": "TRANSPORTATION SADDLE DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-006-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-006_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-006-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-006_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 17,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-007",
+"title": "PLTF. & LADDER CLEAT DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-007-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-007_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-007-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-007_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 18,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-008",
+"title": "PLATFORM & LADDER DETAIL DRAWING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-008-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-008_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-008-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-008_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 19,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-009",
+"title": "DETAIL OF GRATING FOR CHILLED WATER EXPANSION VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-009-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-009_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-009-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-009_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 20,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-010",
+"title": "NOZZLE DETAIL DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-010-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-010_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-010-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-010_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 21,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-011",
+"title": "DETAIL OF MANWAY DAVIT FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-011-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-011_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-011-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-011_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 22,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-012",
+"title": "DETAIL OF SKIRT FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-012-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-012_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-012-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-012_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 23,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-013",
+"title": "DETAIL OF FOUNDATION TEMPLATE & GAUGE PLATE FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-013-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-013_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-013-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-013_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 24,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-014",
+"title": "NAME PLATE DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-014-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-014_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-014-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-014_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 25,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-015",
+"title": "PLATFORM & LADDER CLEAT DETAIL DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-015-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-015_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-015-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-015_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 26,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-016",
+"title": "PLATFORM & LADDER DETAIL DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-016-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-016_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-016-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-016_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 27,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-017",
+"title": "TRANSPORTATION SADDLE DETAIL DRAWING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-017-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-017_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-017-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-017_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 28,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-018",
+"title": "DETAIL OF GRATING FOR COMPRESSED AIR BUFFER VESSEL",
+"status": "Commented",
+"waiting": "CISPL",
+"days": 19,
+"due": 7,
+"flag": true,
+"latest_rev": "00",
+"last_tn": "241112817-OBTS-00003",
+"last_sub": {
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-018-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+"last_rec": {
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-018_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+},
+"history": [
+{
+"date": "2026-09-08",
+"rev": "00",
+"status": "Submitted",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-018-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00002"
+},
+{
+"date": "2026-09-23",
+"rev": "00",
+"status": "Commented",
+"file": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-F01-018_00_2.PDF",
+"tn": "241112817-OBTS-00003"
+}
+]
+},
+{
+"sr": 29,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J01-001",
+"title": "Weld Procedure Including WPS & PQR",
+"status": "Submitted",
+"waiting": "Client",
+"days": 0,
+"due": 14,
+"flag": false,
+"latest_rev": "00",
+"last_tn": "J24N08-12817-CIS-RIL-V-T-00003",
+"last_sub": {
+"date": "2026-10-12",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+},
+"last_rec": null,
+"history": [
+{
+"date": "2026-10-12",
+"rev": "00",
+"status": "Submitted",
+"file": "'MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J01-001-00.pdf",
+"tn": "J24N08-12817-CIS-RIL-V-T-00003"
+}
+]
+},
+{
+"sr": 30,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J02-001",
+"title": "Liquid Penetrant Examination Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 31,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J02-002",
+"title": "Radiographic Testing Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 32,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J02-003",
+"title": "Ferrite Test Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 33,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J02-004",
+"title": "Hardness Test Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 34,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J02-005",
+"title": "Ultrasonic Examination Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 35,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J03-001",
+"title": "Procedure For Post Forming Heat Treatment-Normalizing Of Dish End",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 36,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J04-001",
+"title": "Post Forming Heat Treatment Procedure Of Dish End--Solution Annealing",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 37,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-J04-002",
+"title": "Surface Preparation, Painting & Coating Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 38,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-K02-001",
+"title": "",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 39,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-K07-002",
+"title": "Positive Material Identification Procedure",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+},
+{
+"sr": 40,
+"doc_no": "MT-J24N08-D1JKU-MVV001-FDD-P-00-A-K658-L01-003",
+"title": "Manufacturing Record Book Index",
+"status": "Not Submitted",
+"waiting": "",
+"days": null,
+"due": null,
+"flag": false,
+"latest_rev": null,
+"last_tn": "",
+"last_sub": null,
+"last_rec": null,
+"history": []
+}
+]
+}
