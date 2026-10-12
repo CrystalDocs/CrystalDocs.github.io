@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document Status – Crystal Industrial Syndicate</title>
+<style>
+:root{--bg:#f4f5f7;--ink:#1d2330;--muted:#6b7280;--line:#e3e6eb;--accent:#1f3a5f;--accent2:#2f5d91;
+ --grey:#8a93a3;--blue:#2563eb;--indigo:#4f46e5;--red:#c62828;--amber:#b7791f;--green:#2e7d32}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--accent);color:#fff;padding:14px 20px}
+header h1{margin:0;font-size:18px}header .sub{font-size:12px;color:#b9c8dc}
+main{padding:16px 20px 50px;max-width:1500px;margin:0 auto}
+.banner{background:#fdf4e3;border:1px solid #f0d9a8;color:#6b4e12;border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer}
+.card:hover{border-color:#b8c2d1}.card.on{outline:2px solid var(--accent2)}.card h3{margin:0 0 4px;font-size:15px}
+.bar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:#eef0f3;margin:8px 0}
+.muted{color:var(--muted)}.small{font-size:12px}
+.pill{display:inline-block;border-radius:10px;padding:1px 9px;font-size:12px;white-space:nowrap;background:#eef0f3;color:#444}
+.st-NotSubmitted{background:#eef0f3;color:#555}.st-Submitted{background:#e8f0fe;color:var(--blue)}.st-Resubmitted{background:#eef0fe;color:var(--indigo)}
+.st-Commented{background:#fdf4e3;color:var(--amber)}.st-Rejected{background:#fdecec;color:var(--red)}.st-Approved{background:#e8f5e9;color:var(--green)}
+.kpis{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 10px}
+.kpi{background:#fff;border:1px solid var(--line);border-left:4px solid var(--grey);border-radius:8px;padding:6px 12px;cursor:pointer;min-width:120px}
+.kpi.on{outline:2px solid var(--accent2)}.kpi .n{font-size:19px;font-weight:600}.kpi .l{font-size:12px;color:var(--muted)}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+input[type=search]{padding:7px 10px;border:1px solid var(--line);border-radius:6px;min-width:280px;font:inherit}
+.wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:calc(100vh - 260px)}
+table{border-collapse:collapse;width:100%}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f7f8fa;font-size:12px;position:sticky;top:0;white-space:nowrap}
+tr.r:hover td{background:#f8fafc;cursor:pointer}
+.doc{font-family:Consolas,monospace;font-size:12px;white-space:nowrap}
+.file{font-size:11.5px;color:#444;word-break:break-all;max-width:330px}
+.flag{color:var(--red);font-weight:600}
+tr.hist td{background:#fafbfc;padding:4px 8px 10px 30px}
+.hist table td,.hist table th{font-size:12px;padding:3px 8px;position:static}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><h1 id="ttl">Document Status</h1><div class="sub" id="sub">Read-only view · status, dates, transmittal numbers and file names</div></header>
+<main><div id="ban"></div><div class="cards" id="jobs"><div class="empty">Loading…</div></div><div id="job"></div></main>
+<script>
+const ST=["Not Submitted","Submitted","Resubmitted","Commented","Rejected","Approved"];
+const COL={"Not Submitted":"var(--grey)","Submitted":"var(--blue)","Resubmitted":"var(--indigo)","Commented":"var(--amber)","Rejected":"var(--red)","Approved":"var(--green)"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const dmy=d=>d?d.slice(8,10)+"-"+d.slice(5,7)+"-"+d.slice(0,4):"";
+const cls=s=>"st-"+String(s||"").replace(/\s/g,"");
+const pill=s=>`<span class="pill ${cls(s)}">${esc(s)}</span>`;
+let MODE="static",JOBS=[],J=null,F="all",Q="",OPEN={};
+async function get(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+async function init(){
+  let d;
+  try{d=await get("data/jobs.json");MODE="static"}catch(e){d=await get("/api/view/jobs");MODE="local"}
+  JOBS=(d.jobs||[]).filter(j=>!j.error);
+  if(d.title){document.getElementById("ttl").textContent=d.title;document.title=d.title}
+  if(d.published_at)document.getElementById("sub").textContent="Read-only view · updated "+d.published_at.replace("T"," ");
+  if(MODE==="local")document.getElementById("ban").innerHTML=`<div class="banner">Preview on a DT PC – this is how the published page looks to other departments.</div>`;
+  drawJobs();
+  const h=location.hash.slice(1);if(h&&JOBS.some(j=>j.id===h))openJob(h);else if(JOBS.length===1)openJob(JOBS[0].id);
+}
+function drawJobs(){
+  document.getElementById("jobs").innerHTML=JOBS.map(j=>{const c=j.counts||{},t=j.total||0;return `<div class="card ${J&&J.id===j.id?"on":""}" onclick="openJob('${j.id}')">
+    <h3>${esc(j.name)}</h3><div class="small muted">${t} documents${j.attention?` · <span class="flag">${j.attention} waiting too long</span>`:""}</div>
+    <div class="bar">${ST.map(s=>c[s]?`<div title="${s}: ${c[s]}" style="width:${100*c[s]/t}%;background:${COL[s]}"></div>`:"").join("")}</div>
+    <div class="small">${ST.filter(s=>c[s]).map(s=>`${pill(c[s]+" "+s)}`).join(" ")}</div></div>`}).join("")||`<div class="empty">No jobs published yet.</div>`;
+}
+async function openJob(id){location.hash=id;F="all";Q="";OPEN={};
+  document.getElementById("job").innerHTML=`<div class="empty">Loading…</div>`;
+  J=MODE==="static"?await get("data/job_"+id+".json"):await get("/api/view/job/"+id);drawJobs();drawJob()}
+function drawJob(){
+  const c=J.counts||{},k=(id,n,l,col)=>`<div class="kpi ${F===id?"on":""}" style="border-left-color:${col}" onclick="F='${id}';drawJob()"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+  document.getElementById("job").innerHTML=`<h2 style="margin:22px 0 0">${esc(J.name)}</h2><div class="small muted">Status as of ${esc((J.updated_at||"").replace("T"," "))}</div>
+   <div class="kpis">${k("all",J.total,"All documents","var(--accent2)")}${k("flag",J.attention||0,"Waiting too long","var(--red)")}${ST.map(s=>k(s,c[s]||0,s,COL[s])).join("")}</div>
+   <div class="toolbar"><input type="search" placeholder="Search document no., title or file name" value="${esc(Q)}" oninput="Q=this.value;drawRows()"><span class="small muted">Click a document to see all its submissions and client replies.</span></div>
+   <div class="wrap"><table><thead><tr><th>#</th><th>Document No</th><th>Title</th><th>Status</th><th>Days</th><th>Rev</th><th>Last submitted</th><th>Last client reply</th></tr></thead><tbody id="rows"></tbody></table></div>`;
+  drawRows();
+}
+function evCell(e){if(!e)return"";return `${dmy(e.date)} · R${esc(e.rev)} ${e.status?pill(e.status):""}${e.tn?`<div class="small muted">TN ${esc(e.tn)}</div>`:""}${e.file?`<div class="file">📄 ${esc(e.file)}</div>`:""}`}
+function drawRows(){
+  let rows=J.rows;
+  if(F==="flag")rows=rows.filter(r=>r.flag);else if(F!=="all")rows=rows.filter(r=>r.status===F);
+  if(Q){const q=Q.toUpperCase();rows=rows.filter(r=>r.doc_no.toUpperCase().includes(q)||(r.title||"").toUpperCase().includes(q)||(r.history||[]).some(h=>(h.file||"").toUpperCase().includes(q)))}
+  document.getElementById("rows").innerHTML=rows.map(r=>`<tr class="r" onclick="tog('${esc(r.doc_no)}')"><td class="muted">${r.sr}</td><td class="doc">${esc(r.doc_no)}</td><td>${esc(r.title)}</td>
+   <td>${pill(r.status)}</td><td class="small">${r.days!=null?`<span class="${r.flag?"flag":""}">${r.days}</span>/${r.due??"–"} d<div class="muted">on ${esc(r.waiting||"")}</div>`:""}</td>
+   <td>${r.latest_rev?"R"+esc(r.latest_rev):""}</td><td class="small">${evCell(r.last_sub)}</td><td class="small">${evCell(r.last_rec)}</td></tr>
+   ${OPEN[r.doc_no]?`<tr class="hist"><td colspan="8"><table><thead><tr><th>Date</th><th>Rev</th><th>Status</th><th>Transmittal</th><th>File name</th></tr></thead><tbody>
+     ${(r.history||[]).map(h=>`<tr><td>${dmy(h.date)}</td><td>R${esc(h.rev)}</td><td>${pill(h.status)}</td><td>${esc(h.tn||"")}</td><td class="file">${esc(h.file||"–")}</td></tr>`).join("")||`<tr><td colspan="5" class="muted">Nothing submitted yet.</td></tr>`}</tbody></table></td></tr>`:""}`).join("")||`<tr><td colspan="8" class="empty">No documents match.</td></tr>`;
+}
+function tog(d){OPEN[d]=!OPEN[d];drawRows()}
+init().catch(e=>document.getElementById("jobs").innerHTML=`<div class="empty">Could not load the data (${esc(e.message)}).</div>`);
+</script>
+</body>
+</html>
